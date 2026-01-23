@@ -1,0 +1,7 @@
+User Stories for Sabor Colombiano Website
+
+1. As a hungry customer, I want to view Colombian dishes like arepas and empanadas with prices so I can choose what to order.
+
+2. As a local in Minnesota, I want a menu grid and store info to plan a visit or catering.
+
+3. As a visitor, I want a contact form to ask about specials so I can get quick responses.
