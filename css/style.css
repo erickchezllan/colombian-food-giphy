@@ -103,4 +103,67 @@ h2 {
   margin-bottom: 2rem;
   padding-top: 1rem;
 }
+.contact-section {
+  max-width: 600px;
+  margin: auto;
+  padding: 120px 2rem 2rem;
+  text-align: center;
+}
+
+.contact-section p {
+  background: #fff3e0;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+input, textarea {
+  padding: 1rem;
+  border: 2px solid #ff6b35;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #e55a2b;
+  box-shadow: 0 0 0 3px rgba(255,107,53,0.1);
+}
+
+button {
+  background: #ff6b35;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e55a2b;
+}
+
+.map-placeholder {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+
  
