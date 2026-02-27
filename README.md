@@ -1,31 +1,40 @@
-# Sabor Colombiano Website
-Erick Chezilla - Software Engineering Student
+# 🇨🇴 Colombian Food Giphy Search
 
-## Overview
-3-page site for fictional Colombian food business in Chaska, MN.
+Live Demo: https://erickchezllan.github.io/colombian-food-giphy
 
-## Features
-- Responsive nav bar (orange theme)
-- Menu page: 3-column CSS Grid with 6 Colombian dishes + images + prices
-- Contact form with name/email/message (Formspree integration)
-- Mobile-friendly design
+## ✨ Features
+- 🔍 Search Colombian food GIFs (arepas, empanadas, bandeja paisa)
+- 📱 Fully responsive (mobile-first design)
+- ⚡ Real-time Giphy API integration
+- 🎨 Modern SCSS + CSS Grid layout
+- 🚀 Production-ready with Git workflow
 
-## Pages
-- `index.html` - Hero image + welcome
-- `menu.html` - 6 dishes in responsive grid  
-- `contact.html` - Working contact form
+## 🛠️ Tech Stack
 
-## Tech Stack
-HTML5, CSS3 Grid/Flexbox, Git/GitHub, Formspree, GitHub Pages
+HTML5 | SCSS | Vanilla JavaScript | Giphy API | Git/GitHub
 
-## Live Site
-https://erickchezllan.github.io/colombian-food-site
 
-## Planning Documents
-- `user-stories.txt` - 3 user stories
-- `wireframe-home.jpg`, `wireframe-menu.jpg`, `wireframe-contact.jpg` - Hand-drawn wireframes
+## 🎯 How to Use
+1. Type Colombian food name (arepas, empanadas, sancocho)
+2. Click **Search GIFs** or press Enter
+3. Scroll to see delicious GIF results!
 
-## Future Ideas
-1. JavaScript menu filter by category
-2. Bootstrap carousel for featured dishes
-3. Stripe integration for online ordering
+## 📁 Project Structure
+
+├── index.html (Giphy search UI)
+├── css/style.scss (Responsive SCSS)
+├── js/main.js (Giphy API logic)
+└── README.md (Documentation)
+
+
+## 🎨 Design
+- CSS Grid for perfect 3-column layout
+- Mobile-first responsive breakpoints
+- Smooth scroll animations
+- Loading states + error handling
+
+## 🚀 Deployed with GitHub Pages
+Built during Software Engineering Bootcamp • February 2026
+
+---
+⭐ **Star this repo!** Follow for more projects.
