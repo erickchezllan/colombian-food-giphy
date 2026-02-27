@@ -1,7 +1,7 @@
-User Stories for Sabor Colombiano Website
+Giphy Search Engine - User Stories
 
-1. As a hungry customer, I want to view Colombian dishes like arepas and empanadas with prices so I can choose what to order.
+1. As a Colombian food lover, I want to search for "arepas" gifs so i can see animated cooking demos. 
 
-2. As a local in Minnesota, I want a menu grid and store info to plan a visit or catering.
+2. As a restaurant owner, I want to search for "empanadas dancing" gifs so I can find fun social media content. 
 
-3. As a visitor, I want a contact form to ask about specials so I can get quick responses.
+3. As a mobile user, I want gifs to stack vertically so I can easily browse on my phone. 

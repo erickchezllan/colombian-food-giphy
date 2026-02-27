@@ -3,25 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabor Colombiano - Authentic Colombian Food</title>
+    <title>Sabor Giphy - Colombian Food GIF Search</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <header>
-        <h1>Bienvenidos a Sabor Colombiano</h1>
-        <p>Authentic Colombian flavors in Chaska, Minnesota. Arepas, empanadas, and more!</p>
-        <img src="images/arepas-hero.jpg" alt="Fresh Colombian arepas" class="hero-img">
+    <header class="header">
+        <h1 class="site-title">Sabor Giphy</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    <main>
-        <section class="intro">
-            <h2>Our Story</h2>
-            <p>Bringing Colombia's vibrant cuisine to you. Family recipes since 2026.</p>
+
+    <main class="main">
+        <section class="search-section">
+            <h2>🔍 Search Colombian Food GIFs</h2>
+            <form id="searchForm" class="search-form">
+                <input type="search" id="searchInput" placeholder="arepas, empanadas, bandeja..." required>
+                <button type="submit">Search GIFs</button>
+            </form>
+        </section>
+
+        <section id="resultsSection" class="results-section">
+            <div id="giphyGrid" class="giphy-grid"></div>
         </section>
     </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
